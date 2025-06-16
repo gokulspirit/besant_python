@@ -1,0 +1,22 @@
+import datetime
+import time
+d=datetime.datetime(2021,5,23,11,5,20)
+print(d)
+d=datetime.datetime.today()
+print("Datetime:",d)
+print("now:",datetime.datetime.now())
+print("utcnow:",datetime.datetime.utcnow())
+print("astime:",d.astimezone())
+print("tzname:",d.tzname())
+##print("min:",datetime.datetime.min)
+##print("max:",datetime.datetime.max)
+##print("resolution:",datetime.datetime.resolution)
+##print("Hour:",d.hour)
+##print("Minutes:",d.minute)
+##print("Second:",d.second)
+##print("Microsecond:",d.microsecond)
+##print("Year:",d.year)
+##print("Month:",d.month )
+##print("Day:",d.day )
+print("Time Tuple:",d.timetuple())
+
